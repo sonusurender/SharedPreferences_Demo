@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ff6600"
+        android:padding="10dp"
+        android:text="@string/save"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ff6600"
+        android:padding="10dp"
+        android:text="@string/show"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/saved_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ff6600"
+        android:padding="10dp"
+        android:text="@string/delete"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</LinearLayout>
